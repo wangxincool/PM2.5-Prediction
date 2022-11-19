@@ -13,7 +13,6 @@
         - train.csv
         - test.csv
     处理之后的训练集和训练集标签
-    处理流程请见提供的doc文档
         - train_x.csv
             - 维度（5760，162）
                 - 5760表示样本数
@@ -24,14 +23,16 @@
 
 ## 文件夹介绍
     - data：数据集
-    - scripts：程序代码
+    - test：程序代码
         - model.py：实现线性回归模型
         - mydataset.py：实现数据集的封装和处理
         - train.py：训练开始函数，程序入口
     Readme.md介绍文档
  
 ## 运行方法
-    python ./scripts/train.py
+    python ./test.py
     
-## 结果图
-![损失结果](https://github.com/S16201512/PM2.5-Prediction/blob/master/result.png)
+## 运行环境
+pycharm 
+
+python3.7
